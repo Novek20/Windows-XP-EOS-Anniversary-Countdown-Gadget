@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>Microsoft Windows XP EOS Anniversary Countdown Timer</name>
+  <version>1.0.0.0</version>
+  <author name="Novek">
+    <info url="" />
+    <logo src="" />
+  </author>
+  <copyright>&#169;2023</copyright>
+  <description>Microsoft Windows XP End of Support (EOS) Anniversary Countdown Timer</description>
+  <icons>
+    <icon height="64" width="64" src="images\GadgetIcon.png" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="gadget.html" />
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0" />
+      <defaultImage src="images\GadgetIcon.png" />
+    </host>
+  </hosts>
+</gadget>
